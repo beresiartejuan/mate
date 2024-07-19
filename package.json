@@ -1,0 +1,27 @@
+{
+  "name": "mate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc && node dist/main.js",
+    "prestart": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.8",
+    "commander": "^12.1.0",
+    "moo": "^0.5.2",
+    "typescript": "^5.5.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/moo": "^0.5.9",
+    "@types/uuid": "^10.0.0"
+  }
+}
